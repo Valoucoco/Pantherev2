@@ -290,6 +290,7 @@ a:hover {
     width: 60%;
     margin: 20px auto;
     color: #F3976C!important;
+    padding: 10px;
 }
 
 .navbar {
@@ -740,9 +741,15 @@ h3 {
     font-style: italic;
     font-weight: bold;
 }
+.notice-orange {
+    background-color: #F3976C!important;
+}
+
 .notice span {
     font-weight: lighter!important;
 }
+
+
 .agency-title {
     margin: auto;
     width: 75%;
