@@ -781,6 +781,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display: flex;
 }
 
 .avatar {
