@@ -542,8 +542,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -695,6 +696,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.margin-auto {
+    margin: auto auto auto auto;
+}
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -782,6 +787,7 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .avatar {
