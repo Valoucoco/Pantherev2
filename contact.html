@@ -78,7 +78,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6 notice">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate>
 					<div class="form-group">
 						<label for="name">
 							Nom
@@ -89,19 +89,19 @@
 						<label for="email">
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" placeholder="Adresse email"required />
+						<input id="email" class="form-control" type="email" placeholder="Adresse email" required />
 					</div>
 					<div class="form-group">
-						<label for="message">
+						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input  id="message-long" class="form-control" type="text" placeholder="J'ai connu L'agence La Panthère grâce..."required />
+						<input class="form-control" type="text" placeholder="J'ai connu L'agence La Panthère grâce..." required />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-						<textarea id="message-long" class="form-control" rows="4" cols="50" placeholder="Bonjour..." required></textarea>
+						<textarea class="form-control" rows="4" cols="50" placeholder="Bonjour..." required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -157,6 +157,7 @@
 	</div>
 <!-- Footer - bloc-8 END -->
 
+</div>
 </div>
 <!-- Principal conteneur END -->
     
